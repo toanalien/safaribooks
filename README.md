@@ -34,6 +34,17 @@ It's really simple to use, just choose a book from the library and replace in th
   * X-es with its ID, 
   * `email:password` with your own. 
 
+### Docker
+
+```shell
+git clone https://github.com/toanalien/safaribooks.git
+docker-compose up -d
+docker exec safaribooks python safaribooks.py --cred "account_mail@mail.com:password01" XXXXXXXXXXXXX
+
+# Epub file will be in ./Books directory
+```
+
+### 
 ```shell
 $ python3 safaribooks.py --cred "account_mail@mail.com:password01" XXXXXXXXXXXXX
 ```
