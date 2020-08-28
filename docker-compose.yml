@@ -1,0 +1,8 @@
+version: "3.0"
+
+services:
+  safaribooks:
+    build: .
+    container_name: safaribooks
+    volumes:
+      - ./Books:/usr/src/app/Books
